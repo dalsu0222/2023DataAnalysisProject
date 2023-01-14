@@ -15,7 +15,7 @@
 
 import csv
 f = open('seoul.csv','r',encoding='cp949')  # open의 2,3번째 속성은 기본값이므로 생략 가능
-data = csv.reader(f,delimiter=',')   #deilmeter : 구분자, 기본값은 ','로 생략 가능
+data = csv.reader(f,delimiter=',')   #delimiter : 구분자, 기본값은 ','로 생략 가능
 print(data)
 
 for row in data :
