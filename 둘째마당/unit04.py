@@ -32,7 +32,7 @@ plt.show
 import matplotlib.pyplot as plt
 
 plt.title('plotting')  # 제목 넣기(영어로)
-plt.plot([10,20,30,40])  # 두 개의 리스트 입력 -> x축,y축 순
+plt.plot([10,20,30,40])  
 plt.show
 
 # +
